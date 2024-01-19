@@ -1,0 +1,26 @@
+body, main {
+    display: flex;
+}
+body {
+    flex-direction: column;
+    background-color: rgb(28, 28, 68);
+    color: white
+}
+main {
+    flex: auto
+}
+article {
+    flex: 2;
+}
+aside {
+    flex: 1
+}
+article, aside {
+    overflow-y: auto;
+}
+a {
+    color: inherit;
+}
+footer a, header a {
+    color: inherit
+}
